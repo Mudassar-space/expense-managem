@@ -3,8 +3,8 @@ from typing import List
 from fastapi import Depends, FastAPI, Response, status
 from sqlalchemy.orm import Session
 
-from . import models, schemas
-from .database import SessionLocal, engine
+from apis import models, schemas
+from apis.database import SessionLocal, engine
 from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 app=FastAPI()
