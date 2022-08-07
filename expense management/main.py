@@ -9,7 +9,6 @@ from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 app=FastAPI()
 
-
 models.Base.metadata.create_all(engine)
 def get_db():
 
