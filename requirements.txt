@@ -1,6 +1,6 @@
 python
 fastapi
-uvicorn
+# uvicorn
 gunicorn
 SQLite3
 sqlalchemy
